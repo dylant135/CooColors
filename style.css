@@ -5,4 +5,41 @@
 
 h1 {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.cell {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.center {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+#inp {
+    padding: 4px;
+    font-size: 1.5em;
+}
+
+#submit {
+    text-align: center;
+    padding: 3px;
+    font-size: 1.5em;
+    background-color: #69A8D5;
+}
+
+#submit:hover {
+    background-color: #B0D6F1;
+    cursor: pointer;
 }
